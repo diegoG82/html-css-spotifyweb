@@ -1,4 +1,4 @@
-/* RESET */
+    RESET
 
 *{
     padding:0;
@@ -17,45 +17,49 @@ body{
 
 /* WRAPPER */
 .wrapper{
-    max-width: 100%;
+    width: 100%;
     height: 100vh;
     background-color: hotpink;
 }
 
-/* CONTENT */
-.main{
+/* MAIN CONTENT */
+.main-content{
+    display: flex;
     width: 100%;
-    height:calc(100vh - 100px);
-    background-color: goldenrod;
+    height:calc(100% - 100px);
+    background-color: blueviolet    ;
     }
+
+.right{
+    width: calc(100% - 150px)
+}
+
+.right-menu{
+    display: flex;
+    list-style: none;
+    gap:5px;
+   
+}
+
 
 /* HEADER */
 .header{
     height:100px;
     background-color:yellowgreen;
-    width: calc(100% - 150px);
-    position: fixed;
-    right:0;
-    
-   
 }
-
 
 /* SIDEBAR */
 .sidebar{
     width: 150px;
     height: 100%; 
     background-color: darkgreen;
-    border: 1px solid black;
-
 }
-   
-/* PLAYER */
+
+/* FOOTER */
 .footer{
     width:100%;
     height:100px;
     background-color: darkorange;
-    border:1px solid black;
 }
 
 
