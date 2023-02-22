@@ -17,6 +17,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,500;1,600&display=swap" rel="stylesheet">
 
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
 </head>
 
 <body>
@@ -25,32 +28,200 @@
         <!-- MAIN CONTENT -->
         <div class="main-content">
 
+            <!-- LEFT SIDE -->
             <div class="left">
+                <!-- SIDEBAR -->
                 <div class="sidebar">
-                    LIST
-                </div>
 
+
+                    <div class="upper">
+
+                        <img class="logo-spotify" src="img/logo.svg" alt="">
+                        <ul class="upper-list">
+                        <li><img class="img-sidebar" src="/img/home.svg" alt=""><span class="sidebar-text">Home</span></li>
+                        <li><img class="img-sidebar" src="/img/search.svg" alt=""><span class="sidebar-text">Cerca</span></li>
+                        <li><img class="img-sidebar" src="/img/libreria.svg" alt=""><span class="sidebar-text">La tua libreria</span></li>
+                        </ul>
+
+                        <ul class="upper-list">
+                            <li><span class="sidebar-text">PLAYLIST</span></li>
+                            <li class="sidebar-text"><i class="fa-regular fa-square-plus"></i><span>Crea Playlist</span></li>
+                            <li><span class="sidebar-text">Nome Playlist</span></li>
+                            <li><span class="sidebar-text">Nome Playlist</span></li>
+                            <li><span class="sidebar-text">Nome Playlist</span></li>
+                            <li><span class="sidebar-text">Nome Playlist</span></li>
+                            <li><span class="sidebar-text">Nome Playlist</span></li>
+                            <li><span class="sidebar-text">Nome Playlist</span></li>
+                            <li><span class="sidebar-text">Nome Playlist</span> </li>
+                        </ul>
+                    </div>  
+
+                    <div class="user-list">
+                        <ul>
+                            <li><img class="img-sidebar" src="img/download.svg" alt=""><span class="sidebar-text">Installa app</span></li>
+                            <li><hr></li>
+                            <li><img class="img-sidebar" src="/img/profile.svg" alt=""><span class="sidebar-text">Diego G.</span></li>
+                        </ul>   
+                    </div>
+            
+                </div>
+                <!-- END SIDEBAR -->
+            
             </div>
+            <!-- END LEFT SIDE -->
+            
             
             <div class="right">
 
                 <div class="header">
-                <div><a href="">EFFETTUA L'UPGRADE</a></div>
+                <div class="button"><a class="button-header" href="">EFFETTUA L'UPGRADE</a></div>
                 </div>
 
                 <!-- ALBUM MENU -->
-                <ul class="right-menu">
-                    <li>IN EVIDENZA</li>
-                    <li>PODCAST</li>
-                    <li>CLASSIFICHE</li>
-                    <li>GENERI E MOOD</li>
-                    <li>NUOVE USCITE</li>
-                    <li>SCOPRI</li>
-                </ul>
+                
+                <div class="nav-menu">
+                    <ul class="right-menu">
+                        <li>IN EVIDENZA</li>
+                        <li>PODCAST</li>
+                        <li>CLASSIFICHE</li>
+                        <li>GENERI E MOOD</li>
+                        <li>NUOVE USCITE</li>
+                        <li>SCOPRI</li>
+                    </ul>
+                </div> 
 
-                <h2>Rece</h2>
-            
+                <!-- RECENTLY SECTION -->
+                <div class="recently">
+                    <h2 class="title">Recently played<h2> 
+                </div>             
+                
+                <!-- ROW RECENTLY -->
+                <div class="row-recently">
+                    
+                        <div class="col">
+                            <div class="card">
+                                <img src="img/metal_lifting.jpg" alt="">
+                                <h5>Heavy Metal</h5>
+                                <p>Subtitle</p>
+                            </div>
+                        </div>  
+
+                        <div class="col">
+                            <div class="card">
+                                <img src="img/stranger.jpeg" alt="">
+                                <h5>Strangers Things Vol. 1 (A Netflix Original Series Soundtrack</h5>
+                                <p>Kyle Dixon & Micheal Stein</p>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card">
+                                <img src="img/aquietplace.jpeg" alt="">
+                                <h5>A quiet place</h5>
+                                <p>Subtitle</p>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card">
+                                <img src="img/split.jpeg" alt="">
+                                <h5>split</h5>
+                                <p>Subtitle</p>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card">
+                                <img src="img/cure.jpeg" alt="">
+                                <h5>A cure for wellness</h5>
+                                <p>Subtitle</p>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card">
+                                <img src="img/sinister.jpeg" alt="">
+                                <h5>Sinister</h5>
+                                <p>Subtitle</p>
+                            </div>
+                        </div>
+                        
+                </div>
+                <!-- END ROW RECENTLY -->
+                <!-- END ROW SECTION -->
+
+                <!--  DIEGO SECTION -->
+                <div class="diego">
+                    <h2 class="title">Creato per Diego</h2>
+                    <p>Piu' ascolti, piu' saranno accurati i suggerimenti</p>
+                </div> 
+                
+                <!-- DIEGO ROW -->
+                <div class="row-diego">
+                    
+                    <div class="col">
+                        <div class="card">
+                            <img src="img/radar.jpeg" alt="">
+                            <h5>Release radar</h5>
+                        </div>
+                    </div>  
+
+                    <div class="col">
+                        <div class="card">
+                            <img src="img/mixdaily.jpeg " alt="">
+                            <h5>Daily mix 1</h5>
+                        </div>
+                    </div>
+                
+                </div>
+                <!-- END DIEGO ROW -->
+                <!-- END DIEGO SECTION -->
+
+
+                <!--  ARTIST SECTION -->
+                <div class="diego">
+                    <h2 class="title">Artisti piu' popolari</h2>
+                    <p>Piu' ascolti, piu' saranno accurati i suggerimenti</p>
+                </div> 
+                
+                <!-- ARTIST ROW -->
+                <div class="row-artist">
+                    
+                    <div class="col">
+                        <div class="card">
+                            <img class="round" src="img/youg.jpeg" alt="">
+                            <h5>Lana del Rey</h5>
+                        </div>
+                    </div>  
+
+                    <div class="col">
+                        <div class="card">
+                            <img class="round" src="img/einaudi.jpeg" alt="">
+                            <h5>Ludovico Einaudi</h5>
+                        </div>
+                    </div>
+                
+                </div>
+                <!-- END DIEGO ROW -->
+                <!-- END DIEGO SECTION -->
+
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
             </div>
+           <!-- END LEFT SIDE -->
 
         </div> 
         <!-- END MAIN CONTENT  -->
@@ -59,6 +230,8 @@
         <div class="footer">
             FOOTER
         </div>
+
+        
         <!-- END FOOTER -->
         
     </div>

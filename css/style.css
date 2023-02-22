@@ -15,6 +15,21 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+/* GENERAL */
+
+i{
+    vertical-align: middle;
+    padding-right: 0.2rem;
+}
+
+.round{
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
 /* WRAPPER */
 .wrapper{
     width: 100%;
@@ -22,16 +37,91 @@ body{
     background-color: hotpink;
 }
 
+
+/* LEFT SIDE */
+
+.sidebar{
+    width: 150px;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+}
+
+
+/* upper section */
+
+.upper{
+    width:90%;
+    margin: 0 auto;
+}
+
+.logo-spotify{
+    width: 85%;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.img-sidebar{
+    width: 15%;
+    vertical-align: middle;
+}
+
+.sidebar-text{
+   font-size: 0.7rem;
+   font-weight: 800;
+   color:white;
+   margin-left: 0.2rem;
+}
+
+.upper-list{
+    padding-top: 2rem;
+    list-style: none;
+    line-height: 1.5rem;
+}
+
+.fa-regular{
+    font-size: 30px;
+}
+
+/* user section */
+.user-list{
+    width:90%;
+    margin: 0 auto; 
+    line-height: 1.5rem;
+    padding-bottom:1rem;
+}
+
+
 /* MAIN CONTENT */
 .main-content{
     display: flex;
     width: 100%;
     height:calc(100% - 100px);
-    background-color: blueviolet    ;
+    background-color:rgb(20, 25, 34)
     }
 
+/* RIGHT SIDE */
+
 .right{
-    width: calc(100% - 150px)
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.header{
+    width:100%;
+    z-index: 999;
+    position:fixed;
+    /* padding-bottom:100px;   */
+    right: 0;
+    filter: opacity(0.5);
+   
+}
+
+.nav-menu{
+    margin-top:100px;
 }
 
 .right-menu{
@@ -39,30 +129,89 @@ body{
     justify-content: center;
     list-style: none;
     font-size: 0.8rem;
+    color: whitesmoke;
     font-weight: 900;
     gap:10px;
-   
+    padding-top: 0.5rem;
 }
 
-
-/* HEADER */
 .header{
     height:100px;
-    background-color:yellowgreen;
+    line-height:100px;
+    text-align: right;
+    background-color:rgb(8, 11, 18);
 }
 
-/* SIDEBAR */
-.sidebar{
-    width: 150px;
-    height: 100%; 
-    background-color: darkgreen;
+.button{
+    padding-right: 2rem;
 }
+
+.button-header{
+    border:1px solid white;
+    border-radius:25px;
+    color:white;
+    font-size: 0.7rem;
+    font-weight: 900;
+    text-decoration: none;
+    padding: 0.5rem 1rem;   
+}
+
+.recently, 
+.diego{
+    width: 90%;
+    margin: 0 auto;
+    padding-top:1rem;   
+}
+
+.title{
+    color: whitesmoke;
+    font-size: 1.5rem;
+}
+
+.row-recently,
+.row-diego,
+.row-artist{
+    width: 90%;
+    margin: 0 auto; 
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: nowrap;
+    gap:0.5rem;
+}
+
+.col{
+    width:calc(100% / 6 );
+}
+
+.card{
+    text-align: center;
+}
+
+.card h5{
+    color: white;
+    font-size: 0.8rem;
+}
+
+.card,
+.diego p{
+    color: rgba(211, 211, 211, 0.292);
+    font-size: 0.7rem; 
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
 
 /* FOOTER */
 .footer{
     width:100%;
     height:100px;
-    background-color: darkorange;
+    background-color: rgb(40, 40, 40);
 }
 
 
