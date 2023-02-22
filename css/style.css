@@ -111,7 +111,7 @@ i{
 }
 
 .header{
-    width:100%;
+    width: calc(100% - 150px);
     z-index: 999;
     position:fixed;
     /* padding-bottom:100px;   */
