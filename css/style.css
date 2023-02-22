@@ -10,3 +10,53 @@ img{
     max-width: 100%;
 }
 
+/* GOOGLE FONT */
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* WRAPPER */
+.wrapper{
+    max-width: 100%;
+    height: 100vh;
+    background-color: hotpink;
+}
+
+/* CONTENT */
+.main{
+    width: 100%;
+    height:calc(100vh - 100px);
+    background-color: goldenrod;
+    }
+
+/* HEADER */
+.header{
+    height:100px;
+    background-color:yellowgreen;
+    width: calc(100% - 150px);
+    position: fixed;
+    right:0;
+    
+   
+}
+
+
+/* SIDEBAR */
+.sidebar{
+    width: 150px;
+    height: 100%; 
+    background-color: darkgreen;
+    border: 1px solid black;
+
+}
+   
+/* PLAYER */
+.footer{
+    width:100%;
+    height:100px;
+    background-color: darkorange;
+    border:1px solid black;
+}
+
+
+
