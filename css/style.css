@@ -224,7 +224,7 @@ i{
     align-items: center;
     gap:10px;
     width:40%;
-    padding-left:10px;
+    padding-left:20px;
 }
 
 .sinister{
@@ -253,6 +253,10 @@ i{
     gap:5px;    
     width: 40%;
     padding-right:10px;
+}
+
+.footer-left .fa-regular{
+    font-size:15px; 
 }
 
 .bar{

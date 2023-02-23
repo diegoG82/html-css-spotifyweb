@@ -40,10 +40,7 @@
         font-size: 0.5rem;
         scale:0.7;
     }
-
-    .footer-center{
-        width:30%;
-    }
+    
 
     .bar{
         width:80px
@@ -63,6 +60,12 @@
 /* RESPONSIVE XS 600PX */
 
 @media screen and (max-width:600px){
+    
+    .header{
+        width:calc(100% - 50px);
+    }
+
+    
     .sidebar{
         width:50px;
     }
@@ -95,12 +98,5 @@
         padding-top:10px;
     }
 
-    .header{
-        width:calc(100% - 50px);
-    }
-
-    
-
-    
    
 }
