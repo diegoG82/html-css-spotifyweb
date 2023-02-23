@@ -1,0 +1,106 @@
+/* RESPONSIVE MD 1100PX */
+
+@media screen and (max-width:1100px){
+
+    .col{
+       width: calc(100% / 4 - 2rem / 4);
+    }
+    
+    .row-recently{
+        flex-wrap:wrap
+    }
+}
+
+/* RESPONSIVE S 700PX */
+
+@media screen and (max-width:700px){
+
+    .col{
+        width: calc(100% / 2 - 0.5rem / 2);
+     }
+     
+     .row-recently{
+         flex-wrap:wrap
+     }
+
+     .right-menu{
+        flex-wrap:wrap;
+        line-height: 30px;
+     }
+
+     .nav-menu{
+     width: 60%;
+     margin-left:100px;
+     
+     }
+
+     .footer-left,
+     .footer-center
+     .footer-right{
+        font-size: 0.5rem;
+        scale:0.7;
+    }
+
+    .footer-center{
+        width:30%;
+    }
+
+    .bar{
+        width:80px
+    }
+
+    .bar2{
+        width:40px;
+    }
+
+    .sinister{
+        width:20px;
+    }
+
+}
+
+
+/* RESPONSIVE XS 600PX */
+
+@media screen and (max-width:600px){
+    .sidebar{
+        width:50px;
+    }
+
+    .logo-spotify{
+        display:none;
+    }
+
+    .logo-small{
+        display: inline-block;
+        width: 50%;
+        text-align: center;
+        margin: 12px;
+      
+    }
+
+    .sidebar-text{
+        display:none;
+    }
+
+    .img-sidebar{
+        scale:3;
+        margin-left:20px;
+    }
+    .user-list hr{
+        display:none;
+    }
+
+    .dl{
+        padding-top:10px;
+    }
+
+    .header{
+        width:calc(100% - 50px);
+    }
+
+    
+
+    
+   
+}

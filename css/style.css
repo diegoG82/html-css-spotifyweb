@@ -62,6 +62,11 @@ i{
     text-align: center;
 }
 
+.logo-small{
+    display: none;
+}
+
+
 .img-sidebar{
     width: 15%;
     vertical-align: middle;
@@ -266,7 +271,3 @@ i{
     border-radius: 30px;
 }
 
-.hr20{
-    width:40%;
-    display: inline-block;
-}
