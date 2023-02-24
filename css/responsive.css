@@ -17,24 +17,19 @@
 
     .col{
         width: calc(100% / 2 - 0.5rem / 2);
-     }
+    }
      
-     .row-recently{
-         flex-wrap:wrap
-     }
+    .row-recently{
+        flex-wrap:wrap
+    }
 
-     .right-menu{
+
+    .right-menu{
         flex-wrap:wrap;
         line-height: 30px;
-     }
+    }
 
-     .nav-menu{
-     width: 60%;
-     margin-left:100px;
-     
-     }
-
-     .icons-left{
+    .icons-left{
         display: flex;
         flex-direction: column;
         gap:2px;

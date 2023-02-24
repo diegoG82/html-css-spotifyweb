@@ -127,15 +127,20 @@ i{
     margin-top:100px;
 }
 
-.right-menu{
+.nav-list{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     list-style: none;
     font-size: 0.8rem;
-    color: whitesmoke;
     font-weight: 900;
     gap:10px;
-    padding-top: 0.5rem;
+    padding-top: 2rem;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color:whitesmoke;
 }
 
 .header{
@@ -162,7 +167,7 @@ i{
 .recently, 
 .diego,
 .artist{
-        width: 90%;
+    width: 90%;
     margin: 0 auto;
     padding-top:1rem;   
 }   
@@ -193,14 +198,14 @@ i{
 
 .card h5{
     color: white;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 .card,
 .diego,
 .artist p{
     color: rgba(211, 211, 211, 0.292);
-    font-size: 0.5rem; 
+    font-size: 0.7rem; 
     font-weight: 700;
 }
 
@@ -282,4 +287,6 @@ i{
 }
 
 
-/* HOVER */
+
+
+
