@@ -34,13 +34,11 @@
      
      }
 
-     .footer-left,
-     .footer-center
-     .footer-right{
-        font-size: 0.5rem;
-        scale:0.7;
+     .icons-left{
+        display: flex;
+        flex-direction: column;
+        gap:2px;
     }
-    
 
     .bar{
         width:80px
@@ -48,10 +46,6 @@
 
     .bar2{
         width:40px;
-    }
-
-    .sinister{
-        width:20px;
     }
 
 }
@@ -99,4 +93,14 @@
     }
 
    
+    .icons-left{
+        display: flex;
+        flex-direction: column;
+        gap:2px;
+    }
+
+    .sinister{
+        width: 15%;
+    }
+
 }

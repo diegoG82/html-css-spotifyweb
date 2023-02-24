@@ -200,11 +200,9 @@ i{
 .diego,
 .artist p{
     color: rgba(211, 211, 211, 0.292);
-    font-size: 0.7rem; 
+    font-size: 0.5rem; 
     font-weight: 700;
 }
-
-
 
 
 /* FOOTER */
@@ -222,16 +220,21 @@ i{
     display: flex;
     align-items: center;
     gap:10px;
-    width:40%;
+    width:500px;
     padding-left:20px;
 }
 
 .sinister{
-    width: 5%;
+    width: 10%;
+}
+
+.cover-title{
+    display: flex;
+    flex-direction: column      ;
 }
 
 .footer-center{
-  width:50%;
+  width:40%;
   display: flex ;
   flex-direction: column;
   justify-content: center;
@@ -250,12 +253,16 @@ i{
     display: flex ;
     justify-content: right;
     gap:5px;    
-    width: 40%;
-    padding-right:10px;
+    width: 500px;
+    padding-right:20px;
 }
 
 .footer-left .fa-regular{
     font-size:15px; 
+}
+
+.cover-title{
+    display: flex;
 }
 
 .bar{
@@ -274,3 +281,5 @@ i{
     border-radius: 30px;
 }
 
+
+/* HOVER */
