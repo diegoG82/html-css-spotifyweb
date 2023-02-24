@@ -87,6 +87,9 @@
         padding-top:10px;
     }
 
+    .top{
+        gap:10px;
+    }
    
     .icons-left{
         display: flex;

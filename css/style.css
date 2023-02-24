@@ -155,9 +155,9 @@ i{
 }
 
 .button-header{
-    border:1px solid white;
+    border:1px solid whitesmoke;
     border-radius:25px;
-    color:white;
+    color:whitesmoke;
     font-size: 0.7rem;
     font-weight: 900;
     text-decoration: none;
@@ -186,7 +186,6 @@ i{
     flex-wrap: nowrap;
     gap:0.5rem;
 }
-
 
 .col{
     width:calc(100% / 6 );
@@ -244,7 +243,7 @@ i{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap:10px;
+  gap:20px;
 }
 
 .bottom{
@@ -260,6 +259,12 @@ i{
     gap:5px;    
     width: 500px;
     padding-right:20px;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    gap:30px;
 }
 
 .footer-left .fa-regular{
@@ -287,6 +292,15 @@ i{
 }
 
 
+/* HOVER */ 
 
+.nav-menu,
+.upper-list,
+user-list,
+li :hover {
+   color: greenyellow;   
+ }
+
+    
 
 
