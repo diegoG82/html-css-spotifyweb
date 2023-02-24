@@ -162,10 +162,10 @@ i{
 .recently, 
 .diego,
 .artist{
-    width: 90%;
+        width: 90%;
     margin: 0 auto;
     padding-top:1rem;   
-}
+}   
 
 .title{
     color: whitesmoke;
@@ -175,7 +175,6 @@ i{
 .row-recently,
 .row-diego,
 .row-artist{
-    width: 90%;
     margin: 0 auto; 
     margin-top: 2rem;
     display: flex;
